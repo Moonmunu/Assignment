@@ -49,5 +49,5 @@ result=""
 print("\nSorted last Column are")
 for i in range(len(SelectionSorting(arr,len(arr)))):
     result+=SelectionSorting(arr,len(arr))[i]
-    print(i,":",SelectionSorting(arr,len(arr))[i])
+    print("   ",SelectionSorting(arr,len(arr))[i])
 
